@@ -17,7 +17,7 @@ class MscLock {
          * @Param
          * @return
          **/
-        public volatile boolean lock; //false代表释放锁上一个节点可获取锁标识，true代表需要获得锁
+        public volatile boolean lock; //false释放锁上一个节点可获取锁标识，true需要获得锁
         public Thread lockThread;
         public Node next;
 
